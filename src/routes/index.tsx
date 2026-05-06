@@ -110,13 +110,13 @@ function HomePage() {
           </h2>
           <div className="mt-12 grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
-              { t: "Práctica real", d: "Trabajás con equipos reales desde la primera clase.", c: "celeste" },
-              { t: "Certificación", d: "Obtené tu certificado al finalizar cada curso.", c: "azul" },
-              { t: "Instructores expertos", d: "Profesionales en actividad en el rubro.", c: "rojo" },
-              { t: "Salida laboral", d: "Te orientamos para que empieces a trabajar rápido.", c: "verde-fluo" },
+              { t: "Práctica real", d: "Trabajás con equipos reales desde la primera clase.", c: "bg-celeste" },
+              { t: "Certificación", d: "Obtené tu certificado al finalizar cada curso.", c: "bg-azul" },
+              { t: "Instructores expertos", d: "Profesionales en actividad en el rubro.", c: "bg-gradient-tecnica" },
+              { t: "Salida laboral", d: "Te orientamos para que empieces a trabajar rápido.", c: "bg-gradient-crimi" },
             ].map((f) => (
               <div key={f.t} className="bg-white rounded-2xl p-6 shadow-card-soft border border-border">
-                <div className={`h-10 w-10 rounded-lg mb-4 bg-${f.c}`} />
+                <div className={`h-10 w-10 rounded-lg mb-4 ${f.c}`} />
                 <h3 className="font-bold text-azul-deep">{f.t}</h3>
                 <p className="text-sm mt-2 text-muted-foreground">{f.d}</p>
               </div>
