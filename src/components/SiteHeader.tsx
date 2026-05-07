@@ -1,6 +1,7 @@
 import { Link } from "@tanstack/react-router";
 import { useState } from "react";
 import { WhatsAppButton } from "./WhatsAppButton";
+import logoCfti from "@/assets/logo-cfti.webp";
 
 const nav = [
   { to: "/", label: "Inicio" },
@@ -16,11 +17,9 @@ export function SiteHeader() {
     <header className="sticky top-0 z-40 backdrop-blur-md bg-white/80 border-b border-border">
       <div className="mx-auto max-w-7xl px-4 md:px-8 h-16 flex items-center justify-between">
         <Link to="/" className="flex items-center gap-2 font-display font-bold text-azul-deep">
-          <span className="grid h-9 w-9 place-items-center rounded-lg bg-gradient-hero text-white shadow-glow">
-            CF
-          </span>
+          <img src={logoCfti} alt="C.F.T.I - Centro de Formación de Técnica e Infraestructura" className="h-11 w-11 object-contain" />
           <span className="hidden sm:inline text-base leading-tight">
-            Centro de Formación<br />
+            C.F.T.I<br />
             <span className="text-xs font-medium text-muted-foreground">Técnica & Criminalística</span>
           </span>
         </Link>
