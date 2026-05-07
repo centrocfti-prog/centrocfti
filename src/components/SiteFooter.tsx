@@ -1,14 +1,15 @@
 import { Link } from "@tanstack/react-router";
 import { WhatsAppButton } from "./WhatsAppButton";
+import logoCfti from "@/assets/logo-cfti.webp";
 
 export function SiteFooter() {
   return (
     <footer className="mt-24 bg-azul-deep text-white">
       <div className="mx-auto max-w-7xl px-4 md:px-8 py-14 grid gap-10 md:grid-cols-3">
         <div>
-          <div className="flex items-center gap-2 font-display font-bold text-lg">
-            <span className="grid h-9 w-9 place-items-center rounded-lg bg-celeste text-azul-deep">CF</span>
-            Centro de Formación
+          <div className="flex items-center gap-3 font-display font-bold text-lg">
+            <img src={logoCfti} alt="C.F.T.I" className="h-12 w-12 object-contain bg-white rounded-full p-0.5" />
+            C.F.T.I
           </div>
           <p className="mt-4 text-sm text-white/70 max-w-xs">
             Capacitación profesional en oficios técnicos y criminalística. Aprendé con
