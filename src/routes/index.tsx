@@ -119,10 +119,10 @@ function HomePage() {
           </h2>
           <div className="mt-12 grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
-              { t: "Práctica real", d: "Trabajás con equipos reales desde la primera clase.", c: "bg-celeste" },
-              { t: "Certificación", d: "Obtené tu certificado al finalizar cada curso.", c: "bg-azul" },
-              { t: "Instructores expertos", d: "Profesionales en actividad en el rubro.", c: "bg-gradient-tecnica" },
-              { t: "Salida laboral", d: "Te orientamos para que empieces a trabajar rápido.", c: "bg-gradient-crimi" },
+              { t: "Experiencia real", d: "Nuestros cursos están diseñados para que aprendas con equipos e instalaciones reales desde el primer día. Somos una institución con trayectoria en formación técnica, respaldada por prácticas intensivas que preparan a nuestros alumnos para los desafíos del mundo laboral.", c: "bg-celeste" },
+              { t: "Certificación internacional", d: "Al finalizar cada curso obtendés un certificado reconocido que acredita tus competencias ante empleadores locales e internacionales. Esto amplía tus oportunidades de trabajo fuera del país y te posiciona como un profesional calificado.", c: "bg-azul" },
+              { t: "Calidad del personal", d: "Contamos con instructores altamente calificados que se desempeñan activamente en sus respectivas áreas. Su experiencia profesional garantiza una enseñanza actualizada, práctica y alineada con las exigencias actuales del mercado.", c: "bg-gradient-tecnica" },
+              { t: "Crecimiento personal y profesional", d: "Más que un certificado, te acompañamos en tu desarrollo integral. Te orientamos para potenciar tus habilidades, mejorar tu perfil laboral y lograr una transformación real en tu vida personal y profesional.", c: "bg-gradient-crimi" },
             ].map((f) => (
               <div key={f.t} className="bg-white rounded-2xl p-6 shadow-card-soft border border-border">
                 <div className={`h-10 w-10 rounded-lg mb-4 ${f.c}`} />
