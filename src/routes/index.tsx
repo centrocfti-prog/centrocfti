@@ -58,7 +58,7 @@ function HomePage() {
               <img
                 src={logoCfti}
                 alt="Logo C.F.T.I - Centro de Formación Técnica e Infraestructura"
-                className="rounded-2xl shadow-glow animate-float object-contain h-64 w-full bg-white/90"
+                className="rounded-2xl shadow-glow animate-float object-contain h-80 w-full"
                 width={640} height={640}
               />
               <div className="grid grid-cols-2 gap-4">
