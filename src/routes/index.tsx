@@ -54,20 +54,28 @@ function HomePage() {
 
           <div className="relative">
             <div className="absolute -inset-4 bg-celeste/20 blur-2xl rounded-3xl" />
-            <div className="relative grid grid-cols-2 gap-4">
+            <div className="relative flex flex-col gap-4">
               <img
-                src={heroTecnica}
-                alt="Instructor técnico trabajando en aire acondicionado"
-                className="rounded-2xl shadow-glow animate-float object-cover h-64 w-full"
+                src={logoCfti}
+                alt="Logo C.F.T.I - Centro de Formación Técnica e Infraestructura"
+                className="rounded-2xl shadow-glow animate-float object-contain h-64 w-full bg-white/90"
                 width={640} height={640}
               />
-              <img
-                src={heroCrimi}
-                alt="Análisis dactiloscópico en laboratorio criminalístico"
-                className="rounded-2xl shadow-fluo object-cover h-64 w-full mt-10 animate-float"
-                style={{ animationDelay: "1.2s" }}
-                width={640} height={640}
-              />
+              <div className="grid grid-cols-2 gap-4">
+                <img
+                  src={heroTecnica}
+                  alt="Instructor técnico trabajando en aire acondicionado"
+                  className="rounded-2xl shadow-glow animate-float object-cover h-64 w-full"
+                  width={640} height={640}
+                />
+                <img
+                  src={heroCrimi}
+                  alt="Análisis dactiloscópico en laboratorio criminalístico"
+                  className="rounded-2xl shadow-fluo object-cover h-64 w-full mt-10 animate-float"
+                  style={{ animationDelay: "1.2s" }}
+                  width={640} height={640}
+                />
+              </div>
             </div>
           </div>
         </div>
