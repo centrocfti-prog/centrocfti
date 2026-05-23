@@ -98,7 +98,7 @@ function HomePage() {
             kind="tecnica"
             title="Técnica e Infraestructura"
             description="Electricidad, planos, refrigeración y climatización vehicular. Oficios con alta demanda."
-            tags={["Electricidad", "Planos", "Aires acondicionados", "Aire automotor", "Heladeras"]}
+            tags={["Electricidad", "Sistemas de construcción", "Aires acondicionados", "Aire automotor", "Heladeras"]}
             to="/tecnica"
           />
           <TrackCard

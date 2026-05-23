@@ -21,7 +21,7 @@ const courses = [
     icon: <Bolt />,
   },
   {
-    title: "Manejo e interpretación de planos",
+    title: "Sistemas de construcción y planos",
     description: "Leé y dibujá planos eléctricos, civiles y de instalaciones como un profesional.",
     bullets: ["Simbología técnica", "Escalas y cotas", "AutoCAD básico", "Planos eléctricos y sanitarios"],
     duration: "2 meses",
