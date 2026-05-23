@@ -2,6 +2,7 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 import { WhatsAppButton } from "@/components/WhatsAppButton";
 import heroTecnica from "@/assets/hero-tecnica.jpg";
 import heroCrimi from "@/assets/hero-crimi.jpg";
+import logoCfti from "@/assets/logo-cfti.webp";
 
 export const Route = createFileRoute("/")({
   head: () => ({
