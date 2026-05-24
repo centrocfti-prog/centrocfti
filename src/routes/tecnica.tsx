@@ -37,7 +37,7 @@ const courses = [
   {
     title: "Aire acondicionado automotor",
     description: "Especializate en climatización vehicular: un oficio con altísima demanda.",
-    bullets: ["Sistemas R134a y R1234yf", "Compresores y evaporadores", "Diagnóstico con scanner", "Sellado y carga"],
+    bullets: ["Sistemas R134a", "Compresores y evaporadores", "Diagnóstico con scanner", "Sellado y carga"],
     duration: "2 meses",
     icon: <Car />,
   },
